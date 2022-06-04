@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="py-1 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+    <nav class="py-1 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light">
       <div class="container">
         <a class="navbar-brand" href="#">WSL</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,14 +31,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-size:4vh"><i class="bi bi-person-circle"></i></a>
+              <a class="nav-link" href="/login" style="font-size:4vh"><i class="bi bi-person-circle"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container con-content">
+    <div class="container con-content align-items-center">
        @yield('content')
     </div>
 
