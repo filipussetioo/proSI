@@ -4,7 +4,7 @@ body{
 }
 
 nav{
-    background-color: #AAAAAA;
+    background-color: #AAAAAA;  
 }
 
 .navbar-brand img {
@@ -55,7 +55,12 @@ nav ul li a:hover{
   }
   
   .form-signin input[type="password"] {
-    margin-bottom: 10px;
+    margin-bottom: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+.btnReg a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
