@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\WebinarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,12 @@ Route::get('/', function (){
 Route::get('/about', function(){
     return view('about');
 });
-Route::get('home',function(){
+Route::get('/home',function(){
     return view('home');
 });
+
+Route::get('/webinar',[WebinarController::class,'index']);
+Route::get('/register-webinar',[WebinarController::class,'register']);
 
 Route::get('/login',[LoginController::class,'index']);
 
